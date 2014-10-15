@@ -1,4 +1,4 @@
-FROM dockerfile/java:oracle-java8
+FROM jahroots/java
 MAINTAINER Jahroots "jahroots@gmail.com"
 
 ENV CRUCIBLE_VERSION 3.5.4
