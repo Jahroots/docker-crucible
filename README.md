@@ -1,4 +1,4 @@
-docker-crucible
+Docker-Crucible
 ===============
 
 A simple container in order to start using [Atlassian Crucible](https://www.atlassian.com/software/crucible/overview)

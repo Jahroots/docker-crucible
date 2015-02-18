@@ -1,7 +1,7 @@
 FROM jahroots/java
 MAINTAINER Jahroots "jahroots@gmail.com"
 
-ENV CRUCIBLE_VERSION 3.5.4
+ENV CRUCIBLE_VERSION 3.7.0
 
 ### Install and configure packages
 RUN apt-get update && apt-get clean
@@ -12,7 +12,7 @@ RUN mkdir -p /var/log/supervisor
 
 ### Download and unzip Crucible
 RUN wget --no-check-certificate -P /opt http://www.atlassian.com/software/crucible/downloads/binary/crucible-${CRUCIBLE_VERSION}.zip
-RUN cd /opt && unzip crucible-${CRUCIBLE_VERSION}.zip && rm crucible-${CRUCIBLE_VERSION}.zip
+RUN cd /opt && unzip crucible-${CRUCIBLE_VERSION}.zip && rm crucible-${CRUCIBLE_VERSION}.zip && mv fecru-${CRUCIBLE_VERSION} fecru
 
 ### Configure ssh
 RUN echo 'root:root' |chpasswd
