@@ -1,6 +1,8 @@
 Docker-Crucible
 ===============
 
+[![](https://images.microbadger.com/badges/image/jahroots/crucible.svg)](https://microbadger.com/images/jahroots/crucible "Get your own version badge on microbadger.com")
+
 [![](https://images.microbadger.com/badges/version/jahroots/crucible.svg)](https://microbadger.com/images/jahroots/crucible "Get your own version badge on microbadger.com")
 
 A simple container in order to start using [Atlassian Crucible](https://www.atlassian.com/software/crucible/overview)
